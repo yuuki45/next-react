@@ -15,7 +15,7 @@
   --heading2: calc(var(--body) * 1.5); /* 24-27px */
   --heading3: calc(var(--body) * 1.2); /* 19.2-21.6px */
   --small-heading2: clamp(0.875rem, 4vw - 1rem, 1.6875rem); /* 14-7px */
-  --small-heading3: calc(var(var(--small-heading2)) * 0.86); /* 12-23px */ 
+  --small-heading3: calc(var(--small-heading2)) * 0.86; /* 12-23px */ 
 
   /* スペース */
   --space-xs: clamp(1.25rem, 1rem + 0.98vw, 1.875rem); /* 20-30px */
@@ -43,6 +43,11 @@ h2 {
 
 h3 {
   font-size: var(--heading3);
+}
+
+/* next/image */
+span > image {
+  transition: 0.2s;
 }
 
 /* リセット */
