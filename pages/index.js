@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <Container>
       <Hero
-        title="CUBE"
+        title="BLOG"
         subtitle="アウトプットしていくサイト"
         imageOn
       />
